@@ -17,6 +17,19 @@ package com.company;
 public class Alien {
     //Data members
     private boolean dead;
+
+    public boolean isDead() {
+        return dead;
+    }
+
+    public boolean isDodging() {
+        return dodging;
+    }
+
+    public int getAlienHealth() {
+        return alienHealth;
+    }
+
     private boolean dodging;
     private int alienHealth;
 
